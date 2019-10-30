@@ -15,11 +15,11 @@ public class Main {
         System.out.println("Общий вес подарка: "+box.getTotalWeight()+" г.");
         System.out.println("Общая цена подарка: "+box.getTotalPrice() + " руб.");
 box.getAllInfo();
-box.reducePrice(2000);//входной параметр для цены
+box.reducePrice(4000);//входной параметр для цены
         System.out.println(" ");
-box.reduceWeight(1000);//входной параметр для веса
+box.reduceWeight(6000);//входной параметр для веса
 
-        int n = 1; //сколько удаляем элементов
+        int n = 0; //сколько удаляем элементов
         for (int i = 0; i < n; i++) {
 
             box.remove();
